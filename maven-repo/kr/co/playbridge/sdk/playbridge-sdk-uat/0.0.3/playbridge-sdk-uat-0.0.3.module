@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kr.co.playbridge.sdk",
+    "module": "playbridge-sdk-uat",
+    "version": "0.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugVariantUatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "playbridge-sdk-uat-0.0.3.aar",
+          "url": "playbridge-sdk-uat-0.0.3.aar",
+          "size": 16206,
+          "sha512": "d7d894be96b65cc8d163fb7931fa09d6bc1bf5c42db077684eab41372506f6630dfc8a555b65953110411d602f87f876372f0c2510d0d8711b3ef59ed0f6ed2d",
+          "sha256": "405fcd35a7d9e4bdf826d96b184700c4f1de961659ba109b37442119179a8904",
+          "sha1": "7159040e666d292975d6213910a4e5507d3ba872",
+          "md5": "1dd888b9da477d53fd1135c5b9068106"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxandroid",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxjava",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "playbridge-sdk-uat-0.0.3.aar",
+          "url": "playbridge-sdk-uat-0.0.3.aar",
+          "size": 16206,
+          "sha512": "d7d894be96b65cc8d163fb7931fa09d6bc1bf5c42db077684eab41372506f6630dfc8a555b65953110411d602f87f876372f0c2510d0d8711b3ef59ed0f6ed2d",
+          "sha256": "405fcd35a7d9e4bdf826d96b184700c4f1de961659ba109b37442119179a8904",
+          "sha1": "7159040e666d292975d6213910a4e5507d3ba872",
+          "md5": "1dd888b9da477d53fd1135c5b9068106"
+        }
+      ]
+    }
+  ]
+}
