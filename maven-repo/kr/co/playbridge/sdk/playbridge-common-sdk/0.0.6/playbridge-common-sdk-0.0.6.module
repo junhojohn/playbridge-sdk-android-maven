@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kr.co.playbridge.sdk",
+    "module": "playbridge-common-sdk",
+    "version": "0.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseVariantRealReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "playbridge-common-sdk-0.0.6.aar",
+          "url": "playbridge-common-sdk-0.0.6.aar",
+          "size": 28044,
+          "sha512": "9f3b3851b71494f81f0aedb44afedb4bc33f5655d09762e2b617d8e1eb27d6ef8706c7b91e0d2f98233e43a9483d09fdcbf6dacd8a9191a3e8d46230b784cd7d",
+          "sha256": "94ce3426fd615eb49cacee3069a8a533503e1074f35f45ebd67ee94477513b4b",
+          "sha1": "52f6f4717079c58df05401ebe9eeeca933f1c8f9",
+          "md5": "42e2fd6823d1893b267aab1edc2bb6b3"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseVariantRealReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-appset",
+          "version": {
+            "requires": "16.0.2"
+          }
+        },
+        {
+          "group": "com.google.android.ump",
+          "module": "user-messaging-platform",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxandroid",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxjava",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "playbridge-common-sdk-0.0.6.aar",
+          "url": "playbridge-common-sdk-0.0.6.aar",
+          "size": 28044,
+          "sha512": "9f3b3851b71494f81f0aedb44afedb4bc33f5655d09762e2b617d8e1eb27d6ef8706c7b91e0d2f98233e43a9483d09fdcbf6dacd8a9191a3e8d46230b784cd7d",
+          "sha256": "94ce3426fd615eb49cacee3069a8a533503e1074f35f45ebd67ee94477513b4b",
+          "sha1": "52f6f4717079c58df05401ebe9eeeca933f1c8f9",
+          "md5": "42e2fd6823d1893b267aab1edc2bb6b3"
+        }
+      ]
+    }
+  ]
+}
