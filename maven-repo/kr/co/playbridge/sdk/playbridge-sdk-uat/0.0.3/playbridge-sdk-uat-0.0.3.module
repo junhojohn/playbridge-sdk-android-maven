@@ -35,11 +35,11 @@
         {
           "name": "playbridge-sdk-uat-0.0.3.aar",
           "url": "playbridge-sdk-uat-0.0.3.aar",
-          "size": 16206,
-          "sha512": "d7d894be96b65cc8d163fb7931fa09d6bc1bf5c42db077684eab41372506f6630dfc8a555b65953110411d602f87f876372f0c2510d0d8711b3ef59ed0f6ed2d",
-          "sha256": "405fcd35a7d9e4bdf826d96b184700c4f1de961659ba109b37442119179a8904",
-          "sha1": "7159040e666d292975d6213910a4e5507d3ba872",
-          "md5": "1dd888b9da477d53fd1135c5b9068106"
+          "size": 21222,
+          "sha512": "15439f67a52e8027df08ac2cbdcd351db4482fdc55b327b87e41128f89516c0bf0461eeeff8f8e449bbd698acdd1afb89026ed7e6e920c62333659600c08cbcd",
+          "sha256": "7536471a3e35a9d9ab4102021215327306517daa2892a35b01ae3300b24344d0",
+          "sha1": "050c1e01ba220b44f97f7e0603a335e53a117712",
+          "md5": "4005ddea5338ad9807fe3a188d793eef"
         }
       ]
     },
@@ -99,11 +99,11 @@
         {
           "name": "playbridge-sdk-uat-0.0.3.aar",
           "url": "playbridge-sdk-uat-0.0.3.aar",
-          "size": 16206,
-          "sha512": "d7d894be96b65cc8d163fb7931fa09d6bc1bf5c42db077684eab41372506f6630dfc8a555b65953110411d602f87f876372f0c2510d0d8711b3ef59ed0f6ed2d",
-          "sha256": "405fcd35a7d9e4bdf826d96b184700c4f1de961659ba109b37442119179a8904",
-          "sha1": "7159040e666d292975d6213910a4e5507d3ba872",
-          "md5": "1dd888b9da477d53fd1135c5b9068106"
+          "size": 21222,
+          "sha512": "15439f67a52e8027df08ac2cbdcd351db4482fdc55b327b87e41128f89516c0bf0461eeeff8f8e449bbd698acdd1afb89026ed7e6e920c62333659600c08cbcd",
+          "sha256": "7536471a3e35a9d9ab4102021215327306517daa2892a35b01ae3300b24344d0",
+          "sha1": "050c1e01ba220b44f97f7e0603a335e53a117712",
+          "md5": "4005ddea5338ad9807fe3a188d793eef"
         }
       ]
     }
