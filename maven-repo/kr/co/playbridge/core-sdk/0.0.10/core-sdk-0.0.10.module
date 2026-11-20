@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kr.co.playbridge",
+    "module": "core-sdk",
+    "version": "0.0.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseVariantRealReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-sdk-0.0.10.aar",
+          "url": "core-sdk-0.0.10.aar",
+          "size": 24369,
+          "sha512": "ef5657ea14348d672694ad27714e916b6f77f7f759e20065c5cbe95537e53d9962776fe1fd311df7e65b0f52a2080c42a4cee089aabe2c3386a7ff47970545be",
+          "sha256": "768cddeaf041f165b3a80228650189b71e0a693a523437321b80e9631be3676f",
+          "sha1": "033dfac2cd2546094d01cf503b82e69e64ac1873",
+          "md5": "ab82c4d1f8e3d0d43a07ea9664fb1fef"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseVariantRealReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "kr.co.playbridge",
+          "module": "common-sdk",
+          "version": {
+            "requires": "0.0.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxandroid",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxjava",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-sdk-0.0.10.aar",
+          "url": "core-sdk-0.0.10.aar",
+          "size": 24369,
+          "sha512": "ef5657ea14348d672694ad27714e916b6f77f7f759e20065c5cbe95537e53d9962776fe1fd311df7e65b0f52a2080c42a4cee089aabe2c3386a7ff47970545be",
+          "sha256": "768cddeaf041f165b3a80228650189b71e0a693a523437321b80e9631be3676f",
+          "sha1": "033dfac2cd2546094d01cf503b82e69e64ac1873",
+          "md5": "ab82c4d1f8e3d0d43a07ea9664fb1fef"
+        }
+      ]
+    }
+  ]
+}
