@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "kr.co.playbridge",
+    "module": "admob-adapter-sdk-uat",
+    "version": "24.3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugVariantUatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "admob-adapter-sdk-uat-24.3.0.0.aar",
+          "url": "admob-adapter-sdk-uat-24.3.0.0.aar",
+          "size": 6674,
+          "sha512": "648e8cafc282d7c507c5a7ca6c25cd7a69bb905f4fe941eb72f755ef4d0c9ab9b8ffa8a5119a9a4c6d35cb0fca0b736009e7ac489ba607f553cedc6a1dbb01eb",
+          "sha256": "2b2c27e52ee17ede0df09ca21f51e6078eadcd2f18f76909c1344a71c3f89bec",
+          "sha1": "a0fb4cc41ff7671647302005d08e82ca67984afe",
+          "md5": "0dfb874dd62ec49e310a95a3bc38fb97"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "kr.co.playbridge",
+          "module": "common-sdk-uat",
+          "version": {
+            "requires": "0.0.11"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.14.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "24.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "admob-adapter-sdk-uat-24.3.0.0.aar",
+          "url": "admob-adapter-sdk-uat-24.3.0.0.aar",
+          "size": 6674,
+          "sha512": "648e8cafc282d7c507c5a7ca6c25cd7a69bb905f4fe941eb72f755ef4d0c9ab9b8ffa8a5119a9a4c6d35cb0fca0b736009e7ac489ba607f553cedc6a1dbb01eb",
+          "sha256": "2b2c27e52ee17ede0df09ca21f51e6078eadcd2f18f76909c1344a71c3f89bec",
+          "sha1": "a0fb4cc41ff7671647302005d08e82ca67984afe",
+          "md5": "0dfb874dd62ec49e310a95a3bc38fb97"
+        }
+      ]
+    }
+  ]
+}
